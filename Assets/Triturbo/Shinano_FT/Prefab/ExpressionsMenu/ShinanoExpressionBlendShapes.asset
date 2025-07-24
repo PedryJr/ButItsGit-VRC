@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26a2ce4169f23c44b75dbdefaf1a9da, type: 3}
+  m_Name: ShinanoExpressionBlendShapes
+  m_EditorClassIdentifier: 
+  m_ExpressionBlendShapes:
+  - m_Combined: eye_close
+    m_Left: eye_close_L
+    m_Right: eye_close_R
+  - m_Combined: eye_joy
+    m_Left: eye_joy_L
+    m_Right: eye_joy_R
+  - m_Combined: eye_zitome1
+    m_Left: eye_zitome1_L
+    m_Right: eye_zitome1_R
+  - m_Combined: eye_zitome2
+    m_Left: eye_zitome2_L
+    m_Right: eye_zitome2_R
+  - m_Combined: eye_zitome3
+    m_Left: eye_zitome3_L
+    m_Right: eye_zitome3_R
+  - m_Combined: eye_nagomi1
+    m_Left: eye_nagomi1_L
+    m_Right: eye_nagomi1_R
+  - m_Combined: eye_nagomi2
+    m_Left: eye_nagomi2_L
+    m_Right: eye_nagomi2_R
+  - m_Combined: eye_sleepy
+    m_Left: eye_sleepy_L
+    m_Right: eye_sleepy_R
+  - m_Combined: eye_halfclose
+    m_Left: eye_halfclose_L
+    m_Right: eye_halfclose_R
+  - m_Combined: eye_surprise
+    m_Left: eye_surprise_L
+    m_Right: eye_surprise_R
+  - m_Combined: eye_doya
+    m_Left: eye_doya_L
+    m_Right: eye_doya_R
+  - m_Combined: eye_happy
+    m_Left: eye_happy_L
+    m_Right: eye_happy_R
+  - m_Combined: eye_sad
+    m_Left: eye_sad_L
+    m_Right: eye_sad_R
+  - m_Combined: eye_angry
+    m_Left: eye_angry_L
+    m_Right: eye_angry_R
+  - m_Combined: eye_pleasure
+    m_Left: eye_pleasure_L
+    m_Right: eye_pleasure_R
+  - m_Combined: eyelid_turi1
+    m_Left: eyelid_turi1_L
+    m_Right: eyelid_turi1_R
+  - m_Combined: eyelid_turi2
+    m_Left: eyelid_turi2_L
+    m_Right: eyelid_turi2_R
+  - m_Combined: eyelid_turi3
+    m_Left: eyelid_turi3_L
+    m_Right: eyelid_turi3_R
+  - m_Combined: eyelid_tare1
+    m_Left: eyelid_tare1_L
+    m_Right: eyelid_tare1_R
+  - m_Combined: eyelid_tare2
+    m_Left: eyelid_tare2_L
+    m_Right: eyelid_tare2_R
+  - m_Combined: eyelid_up
+    m_Left: eyelid_up_L
+    m_Right: eyelid_up_R
+  - m_Combined: eyelid_down
+    m_Left: eyelid_down_L
+    m_Right: eyelid_down_R
+  - m_Combined: eyelid_under_up1
+    m_Left: eyelid_under_up1_L
+    m_Right: eyelid_under_up1_R
+  - m_Combined: eyelid_under_up2
+    m_Left: eyelid_under_up2_L
+    m_Right: eyelid_under_up2_R
+  - m_Combined: eyelid_under_down
+    m_Left: eyelid_under_down_L
+    m_Right: eyelid_under_down_R
+  - m_Combined: eyelid_under_down2
+    m_Left: eyelid_under_down2_L
+    m_Right: eyelid_under_down2_R
+  - m_Combined: eyelid_under_turi
+    m_Left: eyelid_under_turi_L
+    m_Right: eyelid_under_turi_R
+  - m_Combined: eyelid_under_tare
+    m_Left: eyelid_under_tare_L
+    m_Right: eyelid_under_tare_R

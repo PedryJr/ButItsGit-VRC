@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7494485585546415211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6658810041622413702}
+  - component: {fileID: 1388792503861348795}
+  - component: {fileID: 707189269645928745}
+  - component: {fileID: 7679963480734553760}
+  - component: {fileID: 9185900337459252887}
+  m_Layer: 0
+  m_Name: Eye Tracking Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6658810041622413702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494485585546415211}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 6881215181806800099}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1388792503861348795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494485585546415211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a96d4ea0c344f39e277d82035bf9bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - nameOrPrefix: EyeTrackingEnable
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 1
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: EyeDilationEnable
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 0
+    saved: 1
+    hasExplicitDefaultValue: 1
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: FT/Settings/EyeWeight
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 0
+    localOnly: 1
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 1
+    m_overrideAnimatorDefaults: 1
+  - nameOrPrefix: FT/Settings/ResetWeightGroup0
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 0
+    localOnly: 1
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 1
+    m_overrideAnimatorDefaults: 1
+  - nameOrPrefix: FT/Settings/ResetWeightGroup1
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 0
+    localOnly: 1
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 1
+    m_overrideAnimatorDefaults: 1
+  - nameOrPrefix: FT/Local/EyeLidSmoother
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 2
+    localOnly: 1
+    defaultValue: 0.08
+    saved: 1
+    hasExplicitDefaultValue: 1
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: FT/Local/EyeLookSmoother
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 2
+    localOnly: 1
+    defaultValue: 0.08
+    saved: 1
+    hasExplicitDefaultValue: 1
+    m_overrideAnimatorDefaults: 0
+--- !u!114 &707189269645928745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494485585546415211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb122659f724ebf85fe095ac02dc339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 22100000, guid: dbdfcd2475e74e24f8ae3d3f6571232b, type: 2}
+  layerType: 5
+  deleteAttachedAnimator: 0
+  pathMode: 1
+  matchAvatarWriteDefaults: 0
+  relativePathRoot:
+    referencePath: 
+  layerPriority: 0
+--- !u!114 &7679963480734553760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494485585546415211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ef83cb0c23d4d7c9d41021e544a1978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuToAppend: {fileID: 11400000, guid: 91f96a1aa3d4cb74d871f9acff52b3d2, type: 2}
+  installTargetMenu: {fileID: 11400000, guid: 06b8eb41a761f574fa750e4142f6e90c, type: 2}
+--- !u!114 &9185900337459252887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494485585546415211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ef83cb0c23d4d7c9d41021e544a1978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuToAppend: {fileID: 11400000, guid: 5a44219757660dc498eb3c2fd938dd73, type: 2}
+  installTargetMenu: {fileID: 11400000, guid: 78f546a8c6ce65c43b01f3c08e830563, type: 2}
+--- !u!1 &7688102034109684318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6881215181806800099}
+  - component: {fileID: 128362526115684676}
+  - component: {fileID: 4263620823635465886}
+  m_Layer: 0
+  m_Name: Eye Tracking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6881215181806800099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688102034109684318}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6658810041622413702}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &128362526115684676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688102034109684318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a3c687eef8d0cd46aa00de7cfeb27bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EyeWeight: 1
+  m_ResetWeight: 0
+  m_ResettingGroups:
+  - m_GroupName: Upper Eyelid
+    m_Parameter: FT/Settings/ResetWeightGroup0
+    m_weight: 1
+    m_ResetClipBoth: {fileID: 7400000, guid: 33ce47634c465cc4ca44e6571fbdf278, type: 2}
+    m_ResetClipLeft: {fileID: 7400000, guid: f7a1e4ebddde6a74d8ac2884a76dbb12, type: 2}
+    m_ResetClipRight: {fileID: 7400000, guid: 501d9f17bfacede428abeabccbcdf332, type: 2}
+  - m_GroupName: Lower Eyelid
+    m_Parameter: FT/Settings/ResetWeightGroup1
+    m_weight: 1
+    m_ResetClipBoth: {fileID: 7400000, guid: 78585744c3133364bbd98365f87efd18, type: 2}
+    m_ResetClipLeft: {fileID: 7400000, guid: 13bd2d4c2ecd09b4aa2b5a10874234ef, type: 2}
+    m_ResetClipRight: {fileID: 7400000, guid: 90cdfaa8908c33c42be78d75607560c0, type: 2}
+  m_ExpressionBlendShapes: {fileID: 11400000, guid: ec2c4b467ae28af419c4815a33394e07, type: 2}
+  m_BodyName: Body
+  m_EyeWeightParameter: FT/Settings/EyeWeight
+--- !u!114 &4263620823635465886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688102034109684318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb2338d9be7a37499cf7d07f9493a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_QuantizationParameters: {fileID: 11400000, guid: 7c68ab801a6bc3a4da8f4636d2b7bc00, type: 2}
+  m_OverrideSettings:
+  - m_ParameterName: FT/v2/EyeLid
+    m_Resolution: 7
+    m_ScaleFactor: 1
+    m_CombinedLocal: 0
+    m_CombinedRemote: 0
+  - m_ParameterName: FT/v2/EyeSquint
+    m_Resolution: 5
+    m_ScaleFactor: 1
+    m_CombinedLocal: 0
+    m_CombinedRemote: 0
+  - m_ParameterName: FT/v2/EyeX
+    m_Resolution: 8
+    m_ScaleFactor: 1
+    m_CombinedLocal: 0
+    m_CombinedRemote: 0
+  - m_ParameterName: FT/v2/EyeY
+    m_Resolution: 8
+    m_ScaleFactor: 1
+    m_CombinedLocal: 0
+    m_CombinedRemote: 0
+  - m_ParameterName: FT/v2/PupilDilation
+    m_Resolution: 2
+    m_ScaleFactor: 1
+    m_CombinedLocal: 0
+    m_CombinedRemote: 0
+  - m_ParameterName: FT/v2/BrowExpression
+    m_Resolution: 3
+    m_ScaleFactor: 1
+    m_CombinedLocal: 0
+    m_CombinedRemote: 0
+  m_QuantizationParameterDrivers: []
+  m_LocalBlendTrees:
+  - {fileID: 20600000, guid: 039854f0de7f7984783af28976e596c2, type: 2}
+  - {fileID: 20600000, guid: 1e6b7948d7caa7e499b71a19d3a125c2, type: 2}
+  - {fileID: 20600000, guid: 81efe1d6978050e42b73ebc30b5fe115, type: 2}
+  m_RemoteBlendTrees:
+  - {fileID: 20600000, guid: 56389e3776b08a145aaf7a7cad57c58c, type: 2}
+  - {fileID: 20600000, guid: 08687b609aeb8e94cb21b1ed2b8c522a, type: 2}
+  - {fileID: 20600000, guid: 699988afc6408d949bc886a9e100a887, type: 2}
+  m_RemoteSmoothnessList:
+  - 0.7
+  - 0.7
+  m_LocalSmoothnessList:
+  - 0.08
+  - 0.08

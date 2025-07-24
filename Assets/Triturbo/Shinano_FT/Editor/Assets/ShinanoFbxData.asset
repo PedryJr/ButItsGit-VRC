@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fef7c2484660148ad3a58120e7bcf5, type: 3}
+  m_Name: ShinanoFbxData
+  m_EditorClassIdentifier: 
+  m_Datas:
+  - m_Version: "\u3057\u306A\u306Ever1.00"
+    m_Sha256: b44ba99657acd1fb2cdb9370c57eda45b585517d6c2060cfbabb850f0a8cf3d8
+  - m_Version: "\u3057\u306A\u306Ever1.01"
+    m_Sha256: 9e9e5f86c7d992c8fe652468baffe53aa701971bd22fc476b612f61dddccdca2

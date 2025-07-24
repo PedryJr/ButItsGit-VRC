@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX - Mouth Tracking
+  m_Controller: {fileID: 9100000, guid: 59abea77330632d49a20ce73189e25c0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 41c18e1eb5502f14dbc12027143cdf52, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 28ba7dca54410804ab493d9ab699cd0f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 19808ec0a60994a4cb76de392da4cf50, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2c0927a29a5228c4da6b2ea53aa3de34, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: aec89df8a1f3d7c4dac0bd2321484529, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c79c22f5ab7577e48aaee1e8be359e7f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 09af2db637186484d80cea0eb32f5e34, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e7e25b100bbc64c428aa493565b4fbed, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6a0c4d5bf0f16f1409fb5b583a5443ed, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3be5e2c653e3dda4cad0e99eb43a78e4, type: 2}
