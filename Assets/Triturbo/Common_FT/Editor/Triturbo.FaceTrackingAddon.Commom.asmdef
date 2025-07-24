@@ -1,0 +1,31 @@
+{
+    "name": "Triturbo.FaceTrackingAddon.Common",
+    "rootNamespace": "",
+    "references": [
+        "GUID:901e56b065a857d4483a77f8cae73588",
+        "GUID:fc900867c0f47cd49b6e2ae4ef907300",
+        "GUID:36c306fbfd17b8a4a8443f67f3991996"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "nadena.dev.modular-avatar",
+            "expression": "1.9",
+            "define": "ENABLE_MA"
+        },
+        {
+            "name": "com.triturbo.blendshare",
+            "expression": "0.0.3",
+            "define": "ENABLE_BS"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Triturbo.FaceTrackingAddon.Components.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:62ced99b048af7f4d8dfe4bed8373d76",
+        "GUID:901e56b065a857d4483a77f8cae73588",
+        "GUID:b61dbf68bc925404b8e6f6ade3fe1701",
+        "GUID:fc900867c0f47cd49b6e2ae4ef907300"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "nadena.dev.ndmf",
+            "expression": "",
+            "define": "ENABLE_NDMF"
+        },
+        {
+            "name": "nadena.dev.modular-avatar",
+            "expression": "1.9",
+            "define": "ENABLE_MA"
+        }
+    ],
+    "noEngineReferences": false
+}
