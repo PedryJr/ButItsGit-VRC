@@ -1,0 +1,27 @@
+﻿{
+  "language": "語言",
+  "avatar": "Avatar",
+  "fbx_not_found": "未找到原始 FBX 檔。請重新匯入。",
+  "fbx_ver": "FBX 版本：{0}",
+  "fbx_unknown": "未知或編輯過的 FBX 檔案，若頂點順序不一致，添加的型態鍵可能會出現問題。",
+  "ft_ver": "面部捕捉插件版本：{0}",
+  "drag_here": "將您的 Avatar 遊戲物件或預製體(Prefab)拖到這裡",
+  "ft_exist": "似乎已存在一個面部捕捉插件。\n請確保在新增插件之前刪除舊插件。",
+  "memory_cost": "目前 Avatar 參數用量：{0} bits",
+  "eye_tracking": "眼睛捕捉",
+  "lip_tracking": "嘴部捕捉",
+  "memory_cost_title": "參數用量：{0} bits",
+  "ft_addon": "面部捕捉插件",
+  "ft_cost": "面部捕捉插件：{0} bits",
+  "total": "合計：{0} bits",
+  "memory_not_enough": "參數空間不足！",
+  "synced_limit": "您已超出 VRChat 中同步參數的限制：{0} > 256 bits。",
+
+  "ft_make": "在原 Avatar 應用面部捕捉插件",
+  "ft_make_new": "以新 Avatar 應用面部捕捉插件",
+  "ft_avatar": "面部捕捉 Avatar",
+  "blueprint_warning": "警告: Blueprint ID 已存在。上傳時將嘗試刪除 OSC 配置。如果出現同步問題，請在 VRChat 中重設 OSC 配置，或使用新的 Blueprint ID 上傳您的頭像，以確保 VRCFT 正常運作。",
+  "ft_installed": "面部捕捉插件已安裝完成。",
+  "done": "完成"
+
+}
